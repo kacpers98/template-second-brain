@@ -1,0 +1,14 @@
+[
+  {
+    "rule": "R7",
+    "match": "[[nazwa]] nie wskazuje",
+    "accepted": "2026-09-05",
+    "reason": "Placeholder formatu linku zwrotnego w headzie knowledge (wzór `- [[nazwa]] — uzasadnienie`), nie link do pliku — świadoma konwencja szablonu."
+  },
+  {
+    "rule": "R7",
+    "match": "[[persona]] nie wskazuje",
+    "accepted": "2026-09-05",
+    "reason": "Placeholder w formule zasady 7b („właściciel: [[persona]]”), nie link do pliku — świadoma konwencja szablonu."
+  }
+]
