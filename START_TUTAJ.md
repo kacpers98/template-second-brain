@@ -45,3 +45,7 @@ Przewodnik nie przepuści Cię dalej, dopóki etap nie jest domknięty — i ost
 ## Zasady, których szablon nie pozwoli Ci złamać (i dlaczego)
 
 Agenci nie piszą do Twojej wiedzy ani do reguł systemu — tylko proponują (żeby nic nie zmieniło się bez Ciebie). Nic nie wychodzi poza ten folder (w szablonie nie ma narzędzi wysyłających cokolwiek — to celowe). Dane klientów, pracodawcy, pacjentów, Twoje zdrowie i finanse z kwotami NIE wchodzą do vaulta (bo vault czytają agenci). Historia każdej zmiany jest w gicie (żeby nic nie ginęło).
+
+## Licencja
+
+MIT (plik `LICENSE`). Możesz używać, zmieniać i rozpowszechniać, także komercyjnie, z zachowaniem noty autorskiej.

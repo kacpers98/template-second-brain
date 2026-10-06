@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(**)",
+      "Write(outputs/**)", "Edit(outputs/**)",
+      "Write(inbox/**)", "Edit(inbox/**)",
+      "Write(sources/**)", "Edit(sources/**)",
+      "Edit(system/artifacts/Lista_Zrodel_Zwiadowcy.md)"
+    ],
+    "deny": [
+      "Write(raw/**)", "Edit(raw/**)",
+      "Write(wiki/**)",
+      "Write(moc/**)", "Edit(moc/**)",
+      "Write(clusters/**)", "Edit(clusters/**)",
+      "Write(system/**)",
+      "Edit(system/router.md)",
+      "Edit(system/access_map.md)",
+      "Edit(system/sciaga_wywolan.md)",
+      "Edit(system/agents/**)",
+      "Edit(system/skills/**)",
+      "Edit(system/heads/**)",
+      "Edit(system/templates/**)",
+      "Write(.claude/**)", "Edit(.claude/**)",
+      "Write(CLAUDE.md)", "Edit(CLAUDE.md)",
+      "Write(narzedzia/**)", "Edit(narzedzia/**)"
+    ]
+  }
+}
