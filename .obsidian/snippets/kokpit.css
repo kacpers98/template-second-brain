@@ -1,0 +1,108 @@
+/* kokpit.css — neutralny styl pulpitu KOKPIT.md; korzysta wyłącznie ze zmiennych motywu Obsidiana, więc działa z każdym motywem. */
+.kokpit .inline-title::after,
+.kokpit h1::after {
+  content: ".";
+  color: var(--color-accent);
+  font-weight: 800;
+}
+
+/* --- KOKPIT: układ „centrum dowodzenia" --- */
+.kokpit {
+  --file-line-width: 46rem;                    /* szerszy widok */
+}
+.kokpit .inline-title,
+.kokpit h1 {
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+/* Sekcje jako karty: linia konstrukcyjna + delikatne tło */
+.kokpit h2 {
+  margin-top: 2.2rem;
+  padding: 0.35rem 0.6rem;
+  border-left: 4px solid var(--interactive-accent);
+  background: rgba(26, 54, 93, 0.05);
+  border-radius: 4px;
+  font-weight: 700;
+}
+.theme-dark .kokpit h2 {
+  background: rgba(36, 64, 107, 0.45);       /* granat wraca jako TŁO karty */
+  border-left-color: var(--interactive-accent);
+}
+
+/* Alarmy: terakota — jedyna sekcja, która ma prawo krzyczeć */
+.kokpit h2:first-of-type {
+  border-left-color: var(--color-accent);
+  background: rgba(231, 111, 81, 0.08);
+}
+.theme-dark .kokpit h2:first-of-type {
+  background: rgba(231, 111, 81, 0.16);
+}
+
+/* Tabele Dataview: risografika = płasko, czysto, dużo światła */
+.kokpit .dataview.table-view-table {
+  width: 100%;
+}
+.kokpit .dataview.table-view-table thead th {
+  color: var(--text-normal);
+  font-weight: 700;
+  border-bottom: 2px solid var(--interactive-accent);
+  background: transparent;
+}
+.theme-dark .kokpit .dataview.table-view-table thead th {
+  color: var(--text-muted);
+  border-bottom-color: var(--interactive-accent);
+}
+.kokpit .dataview.table-view-table tbody tr:hover {
+  background: rgba(42, 157, 143, 0.07);
+}
+
+/* Tasks: terminy i priorytety w palecie */
+.kokpit .tasks-list-text .task-due {
+  color: var(--text-normal);
+  font-weight: 600;
+}
+.theme-dark .kokpit .tasks-list-text .task-due {
+  color: var(--text-normal);                            /* granat rozświetlony do czytelności */
+}
+.kokpit li.task-list-item[data-task="x"] {
+  color: color-mix(in srgb, var(--text-normal) 45%, transparent);
+}
+.theme-dark .kokpit li.task-list-item[data-task="x"] {
+  color: color-mix(in srgb, var(--text-muted) 40%, transparent);
+}
+
+/* Kursywa-instrukcje pod nagłówkami: wyciszone */
+.kokpit h2 + p > em {
+  color: color-mix(in srgb, var(--text-normal) 55%, transparent);
+  font-size: 0.85em;
+}
+.theme-dark .kokpit h2 + p > em {
+  color: color-mix(in srgb, var(--text-muted) 55%, transparent);
+}
+
+/* Szybkie skoki: pigułki zamiast gołych linków */
+.kokpit h2:last-of-type ~ p a.internal-link {
+  display: inline-block;
+  padding: 0.15rem 0.6rem;
+  margin: 0.15rem 0.1rem;
+  border: 1.5px solid var(--interactive-accent);
+  border-radius: 999px;
+  text-decoration: none;
+  color: var(--text-normal);
+  font-weight: 600;
+  font-size: 0.9em;
+}
+.kokpit h2:last-of-type ~ p a.internal-link:hover {
+  background: var(--interactive-accent);
+  color: var(--text-on-accent);
+}
+.theme-dark .kokpit h2:last-of-type ~ p a.internal-link {
+  color: var(--text-muted);
+  background: var(--background-secondary);          /* pigułki: granat jako tło */
+  border-color: transparent;
+}
+.theme-dark .kokpit h2:last-of-type ~ p a.internal-link:hover {
+  background: var(--interactive-accent);
+  color: var(--text-on-accent);
+}

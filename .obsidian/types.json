@@ -1,0 +1,13 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "type": "text",
+    "created": "date",
+    "updated": "date",
+    "status": "text",
+    "agent": "text",
+    "etap": "number"
+  }
+}
