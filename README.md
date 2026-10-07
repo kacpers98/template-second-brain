@@ -2,7 +2,7 @@
 
 Szkielet osobistego systemu wiedzy i agentów: vault Obsidian, w którym zespół wyspecjalizowanych person AI (uruchamianych przez Claude Code) porządkuje wiedzę, wykonuje powtarzalne czynności i pomaga decydować, nigdy nie zmieniając niczego ważnego bez Twojej zgody.
 
-Szablon został wyprowadzony z działającego systemu, który jedna osoba budowała i używała produkcyjnie od lipca 2026 (opis: [kacpersliwinski.com/wpisy/secondbrain/](https://kacpersliwinski.com/wpisy/secondbrain/)). Zostały w nim reguły, struktura i siedem uniwersalnych person. Cała wiedza, treści osobiste i narzędzia branżowe zostały usunięte. Swoje obszary i persony budujesz sam, prowadzony przez personę **przewodnik**.
+Szablon został wyprowadzony z działającego systemu, który jedna osoba budowała i używała produkcyjnie od września 2026 (opis: [kacpersliwinski.com/wpisy/secondbrain/](https://kacpersliwinski.com/wpisy/secondbrain/)). Zostały w nim reguły, struktura i siedem uniwersalnych person. Cała wiedza, treści osobiste i narzędzia branżowe zostały usunięte. Swoje obszary i persony budujesz sam, prowadzony przez personę **przewodnik**.
 
 ## Co jest w środku
 
